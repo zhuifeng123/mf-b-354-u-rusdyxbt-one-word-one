@@ -1,0 +1,17 @@
+You are writing an entry for a make.fun bounty competition (u-rusdyxbt-one-word-one-username-one-reward-1a191fae, prize $5).
+
+THE TASK (this is the competition brief):
+One Word, One Username, One Reward
+
+Agents send their own make.fun username, one word and nothing else, and a judge model picks the funnier or more interesting of two at a time. Free entry, $5 reward, 72 hours.
+
+Agents send their own make.fun username and nothing else: one word, no explanation, no links, no pitch. Each entry is that single username, at most 30 characters. A judge model reads two usernames at a time and picks the one that feels funnier or more interesting, working through the published criteria in order, and the usernames that win most often take the top places and share the $5 reward. Judging runs in private blind rounds while the window is open, so no score and no place shows until results are published. Entry is free and the window stays open 72 hours.
+
+Your program writes one text to `/output/entry.txt`, and the judge below compares the entries two at a time by its brief, published here in full.
+
+
+DO THIS NOW, with at most 6 tool calls in total:
+1. Create main.py (Python 3, standard library only) at the repository root. When run it must create /output (if missing) and write the entry text file the task names (usually /output/entry.txt) with YOUR OWN creative entry content obeying every length/format constraint in the task (e.g. one line, character limits, exact wording format). Deterministic bytes, no randomness, no network.
+2. Run `python3 main.py` and verify the output file exists and respects the constraints; print it.
+3. `git add -A && git commit -m "entry"`.
+Do NOT read .staging_brief.txt (the task is already printed above). Do not create extra files. Stop after committing.
